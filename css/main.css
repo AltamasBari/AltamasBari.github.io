@@ -127,7 +127,7 @@ hr{
 }
 
 .abt .card{
-    style="padding-left: 40%;"
+    padding-left: 40%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -207,6 +207,11 @@ hr{
     color: #777777;
     border: 0.5px solid #fff;
     padding: 2% 2% 2% 2%;
+}
+
+.topborder {
+    
+    border-top: 1px solid #eee;
 }
 
 @media screen and (min-width:360px) and (max-width: 768px) {

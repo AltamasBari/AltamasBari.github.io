@@ -71,6 +71,31 @@ hr{
     color:  #3e8b40;
 }
 
+#pageback{
+    position: relative;
+    z-index: -1;
+}
+
+#pagefront{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    z-index: 20;
+    color: #fff;
+}
+
+#pagefront h1{
+    font-weight: 800;
+    font-size: 4vw;
+}
+
+ #imgbottom{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    z-index: 20;
+} 
+
 #parent{
     position: relative;
     z-index: 10;
@@ -209,12 +234,19 @@ hr{
     padding: 2% 2% 2% 2%;
 }
 
+#learnbtn{
+    background-color:#3e8b40;
+    color: #fff;
+    border: none;
+    padding: 2% 3% 2% 3%;
+}
+
 .topborder {
     
     border-top: 1px solid #eee;
 }
 
-@media screen and (min-width:360px) and (max-width: 768px) {
+@media screen and (min-width:360px) and (max-width: 760px) {
     #child{
         position: absolute;
         top: 10%;
@@ -222,9 +254,24 @@ hr{
         right: 5%;
         width: 90%;
         height: 80%;
-        
+        opacity: 0.2;
         z-index:-1;
     }
+    #pagefront{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        z-index: 20;
+        color: #fff;
+    }
+    #imgbottom{
+        position: absolute;
+        top: 95%;
+        left: 5%;
+        z-index: 20;
+        opacity: 0;
+    } 
+    
   }
 
   @media screen and (min-width:200px) and (max-width: 375px) {
@@ -235,8 +282,16 @@ hr{
         right: 5%;
         width: 90%;
         height: 80%;
-        
+        opacity: 0.5;
         z-index:-1;
+    }
+    #pagefront{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        z-index: 20;
+        color: #fff;
+        
     }
   }
 
@@ -248,7 +303,15 @@ hr{
         right: 5%;
         width: 450px;
         height:200px;
-        
         z-index:-1;
     }
+    #imgbottom{
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        right: 5%;
+        
+        z-index: 20;
+    } 
+    
   }

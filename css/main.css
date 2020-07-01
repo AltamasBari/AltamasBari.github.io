@@ -1,0 +1,249 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sintony&display=swap');
+
+
+body{
+    color: #777777;
+    font-family: 'Sintony', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+    position: relative;
+}
+
+p{
+    color: whitesmoke;
+}
+
+a{
+    color: whitesmoke;
+}
+
+h2{
+    color:rgb(11, 11, 99);
+    font-weight: 800;
+}
+
+span{
+    color:#000;
+}
+
+h5{
+    color: #777777;
+    padding: 15% 0% 2% 0%;
+    font-size: 1rem;
+}
+hr{
+    background-image: linear-gradient(to right, #0B0B63,#0B0B63 20%, #3e8b40 20%,#3e8b40 80%,#3e8b40);
+    height: 0.5%;
+    width: 25%;
+    margin-left: 5px;
+    border-radius: 1px;;
+}
+
+.navbar-nav{
+    padding-left: 50%;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:  #000;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:  #3e8b40;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color:   #3e8b40;
+}
+
+.btn{
+    font-size: 14px;
+}
+
+.btn-sucess{
+    color: #fff;
+    background-color: #3e8b40;
+}
+
+.btn-success:hover {
+    background-color: #fff;
+    color:  #3e8b40;
+}
+
+#parent{
+    position: relative;
+    z-index: 10;
+}
+
+#child{
+    position: absolute;
+    top: 3%;
+    left: 75%;
+    z-index:-1;
+    background-image: url(/img/454cad.png);
+}
+.countcard{
+    margin-left: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.countcard .card{
+    background-color: rgb(255, 255, 255);
+}
+
+.countcard .card-title{
+    color: green;
+    text-align: center;
+} 
+
+.countcard .card-text{
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.regcard .card{
+    background-color: rgba(245, 250, 255, 0.945);
+    border-bottom: solid rgb(11, 11, 99);
+}
+
+.regcard .card-title{
+    color: #000;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+} 
+
+.regcard .card-text{
+    color: gray;
+    font-weight: 580;
+    text-align: center;
+}
+
+.icon{
+    height: 70px;width: 70px;
+}
+
+.abt .card{
+    margin: 5% 0px 2% 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bag{
+    background-image: url(/img/single_blog_1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.abt .card p{
+    color: #3e8b40;
+    text-decoration: underline;
+}
+
+.abt .card hr{
+    background-image: linear-gradient(to right, #0B0B63,#0B0B63 20%, #3e8b40 20%,#3e8b40 80%,#3e8b40);
+    height: 0.5%;
+    width: 15%;
+    margin-left: 45px;
+    border-radius: 1px;;
+}
+
+.gsource p{
+    color: #777777;
+    font-weight: bold;
+}
+
+/* .gsource li::before{
+    left: 0;
+    font-size: 20px;
+    top: -.3rem;
+    font-family: "icomoon";
+    content: "";
+    position: absolute;
+} */
+
+.grn{
+    background-color: #3e8b40;
+}
+
+.register h2{
+    color: #fff;
+}
+
+.register .btn{
+    font-size: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register .btn-success {
+    background-color: white;
+    color:  rgb(11, 11, 99);
+}
+
+.foot{
+    background-color: #000;
+}
+.foot h4{
+    color: #fff;
+}
+
+.foot p{
+    color: #777777;
+    font-weight: bold;
+}
+
+.foot hr{
+        background-color: #3e8b40 ;
+        height: 0.5%;
+        width: 10%;
+        margin-left: 0px;
+        border-radius: 1px;;
+}
+
+.butn{
+    background-color: #000;
+    color: #777777;
+    border: 0.5px solid #fff;
+    padding: 2% 2% 2% 2%;
+}
+
+@media screen and (min-width:360px) and (max-width: 768px) {
+    #child{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        height: 80%;
+        
+        z-index:-1;
+    }
+  }
+
+  @media screen and (min-width:200px) and (max-width: 375px) {
+    #child{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        height: 80%;
+        
+        z-index:-1;
+    }
+  }
+
+  @media screen and (min-width: 768px ){
+    #child{
+        position: absolute;
+        top: 10%;
+        left: 77%;
+        right: 5%;
+        width: 450px;
+        height:200px;
+        
+        z-index:-1;
+    }
+  }
